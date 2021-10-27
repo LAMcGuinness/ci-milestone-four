@@ -26,6 +26,9 @@
 * Python3
 
 ### Frameworks and Libraries
+* https://bulma.io/  -- css
+* https://fonts.google.com/specimen/Roboto -- font
+* https://fontawesome.com/ -- icons
 
 ## Testing
 ### Issues Encountered

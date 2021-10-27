@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/ms4yogaback.jpg') no repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+    color: #5D785C;
+    font-family: 'Roboto';
+}
+
+
+/* from Bulma for Font Awesome Icons*/
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #5D785C;
+}
+
+.logo-font {
+    color: #5D785C;
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.join-us-button {
+    background: #B19993;
+    color: #5D785C;
+    min-width: 260px;
+}
+
+.btn {
+    background: #B19993;
+    color: #5D785C;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background: #222;
+    color: white;
+}
+
+
+/* -------------------------------- Media Queries */
+
+/* larger container for xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
